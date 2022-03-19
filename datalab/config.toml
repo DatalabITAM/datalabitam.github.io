@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "es"
 title = "Datalab ITAM"
 author = "Carlos Lezama"
-description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+description = "Una súper descripción aquí."
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
@@ -18,7 +18,7 @@ preserveTaxonomyNames = true
 
 [params]
   orgName = "Datalab ITAM"
-  orgLocal = "Mexico City"
+  orgLocal = "Ciudad de México"
   favicon = "/img/datalab-logo.ico?v=1"
   logo = "/img/datalab-logo.png"
   # font options: sans-serif or serif

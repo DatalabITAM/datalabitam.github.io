@@ -2,7 +2,7 @@ blog: # must match the slug of your blog
   single_sidebar: # for single-sidebar layout
     image:
     title: Más similares
-    description: "¿Te interesan los mismos temas? Date una vuelta por nuestras publicaciones en las mismas categorías."
+    description: "¿Te interesa alguno de estos temas? Date una vuelta por nuestras publicaciones en las mismas categorías."
     author:
     text_link_label: Últimas publicaciones
     text_link_url: /blog
