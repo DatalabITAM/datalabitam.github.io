@@ -11,9 +11,6 @@ header:
   - name: Contacto
     title: Escríbenos
     url: /contact/
-  - name: Elements
-    title: Element Page
-    url: /elements/
 
 footer:
   - name: Proyectos
