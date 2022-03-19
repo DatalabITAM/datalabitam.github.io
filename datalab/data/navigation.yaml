@@ -1,30 +1,21 @@
 header:
-  - name: Home
-    title: Home Page
+  - name: Inicio
+    title: Hola
     url: /
-  - name: About
-    title: About Blogophonic
+  - name: Nosotros
+    title: ¿Quiénes somos?
     url: /about/
-  - name: Blog
-    title: Blog
+  - name: Proyectos
+    title: Nuestro trabajo
     url: /blog/
-  - name: Contact
-    title: Contact Form
+  - name: Contacto
+    title: Escríbenos
     url: /contact/
   - name: Elements
     title: Element Page
     url: /elements/
 
 footer:
-  - name: Help
-    title: Visit Help Site
-    url: https://help.formspree.io
-  - name: Privacy
-    title: Privacy Policy
-    url: https://help.formspree.io
-  - name: Terms of Use
-    title: Terms and Conditions
-    url: https://help.formspree.io
-  - name: RSS
-    title: RSS Feed
-    url: /index.xml
+  - name: Proyectos
+    title: Proyectos
+    url: /blog/
