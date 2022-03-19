@@ -12,7 +12,7 @@ header:
     title: Escríbenos
     url: /contact/
 
-footer:
-  - name: Proyectos
-    title: Proyectos
-    url: /blog/
+# footer:
+#   - name: Proyectos
+#     title: Proyectos
+#     url: /blog/
