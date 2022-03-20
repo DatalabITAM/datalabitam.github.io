@@ -1,4 +1,11 @@
 *.DS_Store
+.hugo_build.lock
+assets/jsconfig.json
+hugo.darwin
+hugo.exe
+hugo.linux
+hugo_stats.json
+node_modules/
 public/
 resources/
-node_modules/
+
