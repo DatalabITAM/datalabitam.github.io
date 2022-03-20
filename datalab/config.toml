@@ -29,18 +29,18 @@ preserveTaxonomyNames = true
   # "Color Palette" section of http://tachyons.io/docs/themes/skins/
   siteBgColor = "near-white"
   sidebarBgColor = "light-gray"
-  headlineColor = "dark-pink"
+  headlineColor = "orange"
   headingColor = "near-black"
   textColor = "dark-gray"
   sidebarTextColor = "mid-gray"
-  bodyLinkColor = "blue"
+  bodyLinkColor = "dark-green"
   navLinkColor = "near-black"
   sidebarLinkColor = "near-black"
   footerTextColor = "silver"
   buttonTextColor = "near-white"
   buttonBgColor = "black"
   buttonHoverTextColor = "white"
-  buttonHoverBgColor = "blue"
+  buttonHoverBgColor = "dark-green"
   borderColor = "moon-gray"
   # show/hide social icons in site header/footer
   socialInHeader = false
