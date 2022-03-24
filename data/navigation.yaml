@@ -1,15 +1,15 @@
 header:
   - name: Inicio
-    title: Hola
+    title: Inicio
     url: /
   - name: Nosotros
-    title: ¿Quiénes somos?
+    title: Nosotros
     url: /about/
   - name: Proyectos
-    title: Nuestro trabajo
+    title: Proyectos
     url: /blog/
   - name: Contacto
-    title: Escríbenos
+    title: Contacto
     url: /contact/
 
 # footer:

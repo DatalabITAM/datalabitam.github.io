@@ -8,7 +8,7 @@ images:
 show_action_link: true
 action_link: /blog
 action_label: "Conoce nuestro trabajo &rarr;"
-action_type: text # text, button
+action_type: button # text, button
 type: home
 ---
 
