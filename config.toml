@@ -50,11 +50,11 @@ preserveTaxonomyNames = true
   # social accounts (username only)
   facebook = ""
   facebook_admin = ""
-  instagram = "datalabitam"
-  youtube = ""
-  twitter = "datalabitam"
   github = "datalabitam"
+  instagram = "datalabitam"
   medium = ""
+  twitter = "datalabitam"
+  youtube = ""
 
 [taxonomies]
   category = "categories"

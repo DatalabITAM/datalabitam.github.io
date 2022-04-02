@@ -1,6 +1,6 @@
 ---
 title: "Datalab ITAM"
-subtitle: "Frase inspiradora"
+subtitle: "¡Hola!"
 description: "Súper descripción."
 date: 2019-02-18T12:27:33-06:00
 images:
