@@ -1,58 +1,21 @@
 ---
 title: "Instalación Cara a Cara"
 subtitle: "Un ejercicio de memoria y conciencia sobre la desaparición en México"
-excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
+excerpt: "Un ejercicio de memoria y conciencia sobre la desaparición en México."
 date: 2018-10-10
-author: "Eric Anderson"
+author: "Javier Jurado, Jerónimo Aranda, Rodrigo Calderón, Bruno López, Rodolfo Ocampo, Francisco Velázquez, Leslie Brenes, Ricardo de la Teja y José Villicaña"
 draft: false
 images:
-  - /blog/assets/built-in-contact-form-thumbnail.png
-  - /blog/assets/built-in-contact-form-feature.png
-series:
-  - Getting Started
+  - /blog/assets/cara-a-cara-thumbnail.jpeg
 tags:
-  - hugo-site
+  - deep-learning
 categories:
-  - Theme Features
-layout: single
+  - Seguridad
+layout: single-sidebar
 ---
 
-![Formspree Logo](/blog/assets/formspree-logo.png)
+### La instalación *cara a cara* es un ejercicio de memoria y conciencia sobre la desaparición en México
 
-## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
+Con tecnologías de reconocimiento facial identificamos semejanzas entre el rostro de quien experimenta la instalación y los rostros de miles de personas desaparecidas en México. Estos rostros fueron obtenidos gracias a una base de datos proporcionada por [Data Cívica](https://datacivica.org) y fuentes gubernamentales de la Procuraduría General de Justicia de distintas entidades federativas. Además, se proporcionan datos de personas con características similares al usuario --- con su mismo nombre, apellido, edad, estado o municipio.
 
----
-
-### Functional Form
-
-This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(`/content/forms/contact.md`). Of course, the example shown below (`your@email.here`) must not be used. Please use your actual email address.
-
-```toml
-# please replace with a valid Formspree form id or email address
-formspree_form_id: your@email.here
-```
-
-Update that file and you're ready to begin receiving submissions. Just submit
-the active form for the first time, and complete the email address verification
-step with Formspree, and your contact form is live. The next time someone
-fills it out, the submission will land in your inbox.
-
-### Multiple Layouts
-
-The files included with the theme have a contact page ready for copy/paste, or
-you can type `hugo new forms/contact.md` and you're off to the races. There are two
-layouts for `forms` – `split-right`, and `split-left` – you guessed it, one puts
-the form on the right and the other on the left. You just fill out the front
-matter, and the rest is automatic.
-
-```toml
-# layout options: split-right or split-left
-layout: split-right
-```
-
-![Contact Form Split Right Layout Screenshot](/blog/assets/built-in-contact-form-feature.png)
-
-Both layouts display the page title and description opposite the form, and you
-can also choose to show your social icon links if you have those configured in
-the `config.toml` file.
+![](/blog/assets/cara-a-cara-1.png)

@@ -10,5 +10,5 @@ blog: # must match the slug of your blog
   list_sidebar: # for list-sidebar layout
     image:
     title: ¿En qué hemos trabajado?
-    description: "Una súper descripción llamativa."
+    description: "Ponte cómodx, podrías estar aquí un rato. Explora todas nuestras historias y proyectos. 🥳"
     show_sidebar_adunit: false # show ad container
