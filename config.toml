@@ -1,4 +1,5 @@
-baseURL = "/"
+baseURL = ""
+relativeURLs = true
 languageCode = "es"
 title = "Datalab ITAM"
 author = "Carlos Lezama"
