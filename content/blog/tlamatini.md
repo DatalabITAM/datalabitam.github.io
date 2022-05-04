@@ -3,7 +3,7 @@ title: "Tlamatini"
 subtitle: "Hacia una inclusión tecnológica del Náhuatl"
 excerpt: "Hacia una inclusión tecnológica del Náhuatl."
 date: 2018-10-10
-author: "Francisco Cote, Rodolfo Ocampo, Matías Reyna & Eyal Schuller"
+author: "Francisco Cote, Rodolfo Ocampo, Matías Reyna y Eyal Schuller"
 draft: false
 images:
   - /blog/assets/tlamatini-thumbnail.jpg
