@@ -2,7 +2,7 @@
   {{ if .CurrentSection.Params.show_post_thumbnail }}
   <div class="flex flex-column flex-row-ns mb4 mb5-l">
     <figure class="mr4-ns ma0 mb2 mb0-l w-100 w-40-ns">
-      <a href="{{ .Permalink }}" class="db">{{ with $.Param "images" }}{{ range first 1 .}}<img src="{{ . | absURL }}" class="db ma0" alt="">{{ end }}{{ end }}</a>
+      <a href="{{ .Permalink }}" class="db">{{ with $.Param "images" }}{{ range first 1 .}}<img src="{{ . | relURL }}" class="db ma0" alt="">{{ end }}{{ end }}</a>
     </figure>
     <div class="flex flex-column w-100 w-60-ns pl3-ns">
       <header class="w-100">
@@ -10,7 +10,7 @@
       </header>
       <p class="f6 lh-copy mv2 flex-auto">{{ if .Params.Excerpt }}{{ .Params.Excerpt }}{{ else }}{{ .Summary }}{{ end }}</p>
       <footer class="w-100">
-        {{ if .CurrentSection.Params.show_author_byline }}<p class="f7 db mv1">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} en{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+        {{ if .CurrentSection.Params.show_author_byline }}<p class="f7 db mv1">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} en{{ range . }} <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
       {{ if .CurrentSection.Params.show_post_date }}<p class="f7 db mv1">{{ .PublishDate.Format "02/01/2006" }}</p>{{ end }}
     </footer>
     </div>
@@ -18,11 +18,11 @@
   {{ else }}
   <div class="measure-wide center mb4 mb5-l">
     <header>
-      <h1 class="f3 mt0 mb2 lh-title underline"><a href="{{ .Permalink }}" class="db">{{ .Title }}</a></h1>
+      <h1 class="f3 mt0 mb2 lh-title underline"><a href="{{ .Permalink }}/index.html" class="db">{{ .Title }}</a></h1>
     </header>
     <p class="lh-copy mb4">{{ if .Params.Excerpt }}{{ .Params.Excerpt }}{{ else }}{{ .Summary }}{{ end }}</p>
     <footer>
-      {{ if .CurrentSection.Params.show_author_byline }}<p class="f7 db mv2">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} en{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+      {{ if .CurrentSection.Params.show_author_byline }}<p class="f7 db mv2">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} en{{ range . }} <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
       {{ if .CurrentSection.Params.show_post_date }}<p class="f7 db mv2">{{ .PublishDate.Format "02/01/2006" }}</p>{{ end }}
     </footer>
   </div>
