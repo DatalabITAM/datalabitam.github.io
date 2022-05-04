@@ -128,7 +128,86 @@ In our working `*.md` file, call images as follows:
 
 ### New People
 
+In order to add or modify people's pictures used in [Nosotros](https://demo.datalabitam.org/about/) tab, you will need to edit the `content/about/index.html` file, and add, edit or delete images under the `content/about/assets/` directory.
+
+For organisational purposes, pictures have been organised per generation. Namely,
+
+```go
+content/about/assets/
+├── datalab-logo.png
+├── gen17
+│   ├── alfredo-lozano.jpg
+│   ├── ...
+│   └── sean-rimada.jpg
+├── gen18
+│   ├── ana-abascal.jpg
+│   ├── ...
+│   └── saul-alvarez.jpg
+├── gen19
+│   ├── ana-laura-garcia.jpg
+│   ├── ...
+│   └── ricardo-de-la-teja.jpg
+├── gen20
+│   ├── alexia-galarza.jpg
+│   ├── ...
+│   └── maximiliano-santiago.jpg
+├── gen21
+│   ├── alexis-sanchez.jpg
+│   ├── ...
+│   └── rafael-arredondo.jpg
+└── gen22
+    ├── alberto-chavez.jpeg
+    ├── ...
+    └── rene-nieto.jpeg
+```
+
+#### Pictures
+
+Note that generation folders are named as follows: `gen%y`, where `%y` stands for the year as a decimal number without a century (range 00 to 99). Likewise, people's pictures are stored as `${name}-${surname}.*`. Plus, for consistency in design and fast website loading, all pictures are stored to a fixed maximum width of **500px** — remember to centre the image on the person's face.
+
+#### HTML
+
+Per generation, add all data under nested `<table></table>` and `<tbody></tbody>` tags. This way, consider the following structure for every new generation:
+
+```html
+<!-- YEAR -->
+<h1 class="f2 f1-ns measure-narrow lh-title">20**</h1>
+<table class="collapse mv4 w-100">
+   <tbody>
+      <tr class="stripe-light">
+         <td class="pa3" style="text-align: end; min-width: 150px;">
+            <!-- If no profile picture -->
+            <img src="assets/datalab-logo.png" height="110" width="100"
+               style="border-radius: 0%; object-fit: cover;"></img>
+         </td>
+         <td class="pa3" style="text-align: start;">
+            <h4 style="line-height: 1;"><a href="mailto:${email-dir}@itam.mx" style="text-decoration:none" target="_blank">Name Surname</a></h4>
+            <p style="line-height: 1;">Career</p>
+         </td>
+      </tr>
+      <tr class="stripe-light">
+         <td class="pa3" style="text-align: end; min-width: 150px;">
+            <!-- If profile picture -->
+            <img src="assets/gen**/${name}-${surname}.*" height="100" width="100"
+               style="border-radius: 50%; object-fit: cover;"></img>
+         </td>
+         <td class="pa3" style="text-align: start;">
+            <h4 style="line-height: 1;"><a href="mailto:${email-dir}@itam.mx" style="text-decoration:none"
+               target="_blank">Name Surname</a></h4>
+            <p style="line-height: 1;">Career 1 & Career 2</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+```
+
+> Please pay special attention to image styles for people with and without profile photos.
+
+Each person's data is stored under nested `<tr></tr>` and `<td></td>` tags.
+
+For simplicity and consistency in layout, always order multiple careers in descending alphabetical order using "&" as the last delimiter.
+
 ## To Do
 
-- [ ] Monitor `Proyectos` page after multiple posts.
-- [ ] Switch `Contacto` forms sheet from [Formspree](https://formspree.io) to local.
+- Monitor `Proyectos` page after multiple posts.
+- Switch `Contacto` forms sheet from [Formspree](https://formspree.io) to local.
