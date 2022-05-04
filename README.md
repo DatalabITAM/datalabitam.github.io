@@ -14,7 +14,7 @@ For testing, you can use the `hugo server` command.
 
 > Before pushing to deploy, remember to build the `public/` files with the `hugo` command.
 
-This site requieres the **extended** version of hugo since it relies on its built-in SASS processor. As of Jan 11, 2021, `hugo-extended` is installed by default when running `brew install hugo` on MacOS. However, for Windows or Linux users, you must [ensure]() you've installed the **extended version**.
+This site requieres the **extended** version of hugo since it relies on its built-in SASS processor. As of Jan 11, 2021, `hugo-extended` is installed by default when running `brew install hugo` on MacOS. However, for Windows or Linux users, you must [ensure](https://gohugo.io/getting-started/installing/) you've installed the **extended version**.
 
 More details on automation will be added here soon.
 
@@ -34,9 +34,9 @@ Consider the following file structure:
         │   ├── cara-a-cara-thumbnail.jpeg
         │   ├── tlamatini-thumbnail.jpg
         │   ├── test-1.png
-        │   ├── test-2.jpeg
-        │   ├── test-3.png
-        │   └── test-thumbnail.jpeg
+        │   ├── test-2.jpg
+        │   ├── test-3.jpeg
+        │   └── test-thumbnail.png
         ├── cara-a-cara.md
         ├── test.md
         └── tlamatini.md
@@ -44,7 +44,7 @@ Consider the following file structure:
 
 You can add, edit or discard posts under `content`'s subfolder `blog`.
 
-In order to understand this, focus on `test` as a new post.
+In order to understand this, focus on `test.md` as a new post. All new posts will require at least one thumbnail. For organizational purposes, please name the thumbnail image file as `${new-post-name}-thumbnail.*`. Please name the other image files in order as `${new-post-name}-${number}.*`. In this example, `test-thumbnail.png`, `test-1.png`, `test-2.jpg`, and `test-3.jpeg`.
 
 ## About
 
