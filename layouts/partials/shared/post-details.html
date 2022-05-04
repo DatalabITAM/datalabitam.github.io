@@ -10,25 +10,25 @@
   {{ with .Params.categories }}
   <dl class="f6 lh-copy">
     <dt class="fw7">Categoría:</dt>
-    <dd class="fw5 ml0">{{ range . }} <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+    <dd class="fw5 ml0">{{ range . }} <a href="{{ "categories/" | relURL }}{{ . | urlize }}/index.html">{{ . }}</a> {{ end }}</dd>
   </dl>
   {{ end }}
   {{ with .Params.series }}
   <dl class="f6 lh-copy">
     <dt class="fw7">Series:</dt>
-    <dd class="fw5 ml0">{{ range . }} <a href="{{ "series/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+    <dd class="fw5 ml0">{{ range . }} <a href="{{ "series/" | relURL }}{{ . | urlize }}/index.html">{{ . }}</a> {{ end }}</dd>
   </dl>
   {{ end }}
   {{ with .Params.tags }}
   <dl class="f6 lh-copy">
     <dt class="fw7">Etiquetas:</dt>
-    <dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+    <dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | relURL }}{{ . | urlize }}/index.html">{{ . }}</a> {{ end }}</dd>
   </dl>
   {{ end }}
   <dl class="f6 lh-copy">
     <dt class="fw7">Ver también:</dt>
     {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
-    <dd class="fw5 ml0"><a href="{{ .RelPermalink }}">{{ .Title }}</a></dd>
+    <dd class="fw5 ml0"><a href="{{ .RelPermalink }}index.html">{{ .Title }}</a></dd>
     {{ end }}
   </dl>
 </details>
