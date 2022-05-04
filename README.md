@@ -35,7 +35,6 @@ Consider the following file structure:
         │   ├── tlamatini-thumbnail.jpg
         │   ├── test-1.png
         │   ├── test-2.jpg
-        │   ├── test-3.jpeg
         │   └── test-thumbnail.png
         ├── cara-a-cara.md
         ├── test.md
@@ -80,6 +79,8 @@ nulla auctor, quis iaculis erat lobortis. Aliquam erat volutpat. Nunc
 convallis consequat mollis. Praesent bibendum tortor eget enim volutpat 
 pretium.
 
+![](/blog/assets/test-1.png)
+
 Fusce luctus ligula id ultrices varius. Donec vel libero metus. Nunc 
 rhoncus justo eget dui porttitor, ac cursus metus cursus. Quisque ac 
 massa in sem elementum sagittis eu quis nisi. Phasellus ex eros, 
@@ -90,7 +91,7 @@ vitae, commodo egestas magna. Nam purus felis, pharetra sed tincidunt
 vel, consectetur eget turpis. Integer tincidunt vehicula metus eu 
 viverra. Nulla sollicitudin dolor non interdum varius.
 
-![](/blog/assets/cara-a-cara-1.png)
+![](/blog/assets/test-2.png)
 ```
 
 For design uniformity, please start new posts' sections as headings of level 2 or higher (i.e., `## First Section`, `### First Section`, . . . , or `###### First Section`, according to your communication purposes).
@@ -120,6 +121,8 @@ In our working `*.md` file, call images as follows:
 ```markdown
 ![](/blog/assets/${IMAGE})
 ```
+
+Images appear exactly where you place them.
 
 ## About
 
