@@ -124,6 +124,29 @@ In our working `*.md` file, call images as follows:
 
 > Images appear exactly where you place them.
 
+#### Recommendation
+
+For bulk image resizing, I recommend using [ImageMagik](https://github.com/imagemagick/imagemagick).
+
+##### Installation
+
+```shell
+brew install imagemagick ghostscript
+```
+
+##### Usage
+
+Example:
+
+```shell
+cd website/content/about/assets/gen22/
+identify *
+mogrify * -resize 500 *
+identify *
+```
+
+`identify *` command returns image information, including the dimensions of all pictures in pixels.
+
 ## About
 
 ### New People
