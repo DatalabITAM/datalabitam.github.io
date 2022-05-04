@@ -104,7 +104,7 @@ List `tags` as lowercase string names with no spaces (e.g., `ai`, `deep-learning
 
 Contrariwise, `categories` will receive only one string with no special rules — spaces and multiple accents are allowed. Just for formality, consider word capitalisation (e.g., `Security`, `Diversity & Nondiscrimination`, `Artificial Intelligence`).
 
-Remaining variables are explained in the screenshots below.
+> Remaining variables are explained in the screenshots below.
 
 ![](static/img/screenshot-1.png)
 
@@ -122,7 +122,7 @@ In our working `*.md` file, call images as follows:
 ![](/blog/assets/${IMAGE})
 ```
 
-Images appear exactly where you place them.
+> Images appear exactly where you place them.
 
 ## About
 
