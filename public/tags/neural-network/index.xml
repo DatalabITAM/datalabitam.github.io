@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neural-network on Datalab ITAM</title>
+    <link>/tags/neural-network/</link>
+    <description>Recent content in neural-network on Datalab ITAM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tlamatini</title>
+      <link>/blog/tlamatini/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tlamatini/</guid>
+      <description>México: un país megadiverso en recursos, cultura e historia En el territorio mexicano existen grupos indígenas cuya cosmovisión, lengua y riqueza cultura son frecuentemente desatendidos por el Estado Mexicano. Desde la carencia de recursos en políticas públicas dirigidas hacia grupos indígenas hasta por la falta de acceso de información en las lenguas indígenas. La condición y lengua indígena es aislada y relegados por el Estado y la sociedad donde se desenvuelve.</description>
+    </item>
+    
+  </channel>
+</rss>

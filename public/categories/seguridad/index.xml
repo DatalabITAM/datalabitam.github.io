@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seguridad on Datalab ITAM</title>
+    <link>/categories/seguridad/</link>
+    <description>Recent content in Seguridad on Datalab ITAM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/seguridad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalación Cara a Cara</title>
+      <link>/blog/cara-a-cara/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/cara-a-cara/</guid>
+      <description>La instalación cara a cara es un ejercicio de memoria y conciencia sobre la desaparición en México Con tecnologías de reconocimiento facial identificamos semejanzas entre el rostro de quien experimenta la instalación y los rostros de miles de personas desaparecidas en México. Estos rostros fueron obtenidos gracias a una base de datos proporcionada por Data Cívica y fuentes gubernamentales de la Procuraduría General de Justicia de distintas entidades federativas. Además, se proporcionan datos de personas con características similares al usuario &amp;mdash; con su mismo nombre, apellido, edad, estado o municipio.</description>
+    </item>
+    
+  </channel>
+</rss>
