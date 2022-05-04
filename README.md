@@ -69,9 +69,26 @@ layout: single-sidebar
 
 ## First Section
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis lorem tempor, ultricies odio at, pellentesque lorem. Ut fermentum ex dui, eget vestibulum enim imperdiet vitae. Donec consequat dictum volutpat. Nunc purus orci, porta quis metus id, malesuada semper purus. Cras tristique fermentum urna sed ultricies. Vestibulum hendrerit urna quis mollis bibendum. Sed velit ipsum, iaculis eu turpis eget, tincidunt efficitur arcu. Duis auctor pretium nulla sed finibus. Mauris elementum metus sed nulla auctor, quis iaculis erat lobortis. Aliquam erat volutpat. Nunc convallis consequat mollis. Praesent bibendum tortor eget enim volutpat pretium.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis lorem 
+tempor, ultricies odio at, pellentesque lorem. Ut fermentum ex dui, eget 
+vestibulum enim imperdiet vitae. Donec consequat dictum volutpat. Nunc 
+purus orci, porta quis metus id, malesuada semper purus. Cras tristique 
+fermentum urna sed ultricies. Vestibulum hendrerit urna quis mollis 
+bibendum. Sed velit ipsum, iaculis eu turpis eget, tincidunt efficitur 
+arcu. Duis auctor pretium nulla sed finibus. Mauris elementum metus sed 
+nulla auctor, quis iaculis erat lobortis. Aliquam erat volutpat. Nunc 
+convallis consequat mollis. Praesent bibendum tortor eget enim volutpat 
+pretium.
 
-Fusce luctus ligula id ultrices varius. Donec vel libero metus. Nunc rhoncus justo eget dui porttitor, ac cursus metus cursus. Quisque ac massa in sem elementum sagittis eu quis nisi. Phasellus ex eros, dignissim nec eros quis, tincidunt dignissim risus. Aliquam quam libero, laoreet at posuere vitae, gravida et eros. Aliquam tristique volutpat auctor. Aliquam eget pulvinar ante. Praesent odio lacus, varius sed nulla vitae, commodo egestas magna. Nam purus felis, pharetra sed tincidunt vel, consectetur eget turpis. Integer tincidunt vehicula metus eu viverra. Nulla sollicitudin dolor non interdum varius.
+Fusce luctus ligula id ultrices varius. Donec vel libero metus. Nunc 
+rhoncus justo eget dui porttitor, ac cursus metus cursus. Quisque ac 
+massa in sem elementum sagittis eu quis nisi. Phasellus ex eros, 
+dignissim nec eros quis, tincidunt dignissim risus. Aliquam quam libero, 
+laoreet at posuere vitae, gravida et eros. Aliquam tristique volutpat 
+auctor. Aliquam eget pulvinar ante. Praesent odio lacus, varius sed null 
+vitae, commodo egestas magna. Nam purus felis, pharetra sed tincidunt 
+vel, consectetur eget turpis. Integer tincidunt vehicula metus eu 
+viverra. Nulla sollicitudin dolor non interdum varius.
 
 ![](/blog/assets/cara-a-cara-1.png)
 ```
@@ -97,6 +114,12 @@ Note that the date must always follow the format `%Y-%m-%d`. Also, in Spanish, l
 ### Thumbnail & Other Images
 
 All new posts will require at least one thumbnail. Name the thumbnail image file as `${new-post-name}-thumbnail.*` under `assets` subdirectory. For organisational purposes, please name the other image files in order as `${new-post-name}-${number}.*`. In this example, `test-thumbnail.png`, `test-1.png`, `test-2.jpg`, and `test-3.jpeg`.
+
+In our working `*.md` file, call images as follows:
+
+```markdown
+![](/blog/assets/${IMAGE})
+```
 
 ## About
 
