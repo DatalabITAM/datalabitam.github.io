@@ -124,29 +124,6 @@ In our working `*.md` file, call images as follows:
 
 > Images appear exactly where you place them.
 
-#### Recommendation
-
-For bulk image resizing, I recommend using [ImageMagik](https://github.com/imagemagick/imagemagick).
-
-##### Installation
-
-```shell
-brew install imagemagick ghostscript
-```
-
-##### Usage
-
-Example:
-
-```shell
-cd website/content/about/assets/gen22/
-identify *
-mogrify * -resize 500 *
-identify *
-```
-
-`identify *` command returns image information, including the dimensions of all pictures in pixels.
-
 ## About
 
 ### New People
@@ -187,6 +164,29 @@ content/about/assets/
 #### Pictures
 
 Note that generation folders are named as follows: `gen%y`, where `%y` stands for the year as a decimal number without a century (range 00 to 99). Likewise, people's pictures are stored as `${name}-${surname}.*`. Plus, for consistency in design and fast website loading, all pictures are stored to a fixed maximum width of **500px** — remember to centre the image on the person's face.
+
+##### Recommendation
+
+For bulk image resizing, I recommend using [ImageMagik](https://github.com/imagemagick/imagemagick).
+
+###### Installation
+
+```shell
+brew install imagemagick ghostscript
+```
+
+###### Usage
+
+Example:
+
+```shell
+cd website/content/about/assets/gen22/
+identify *
+mogrify * -resize 500 *
+identify *
+```
+
+`identify *` command returns image information, including the dimensions of all pictures in pixels.
 
 #### HTML
 
