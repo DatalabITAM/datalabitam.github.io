@@ -2,7 +2,7 @@
 
 ## Usage
 
-This is a full website, not a hugo theme. To use it, just clone the repo, and start hugo.
+This is a full website, not a hugo theme. To use it, just clone the repo, and start [hugo](https://gohugo.io).
 
 ```shell
 git clone git@github.com:DatalabITAM/website.git
