@@ -230,6 +230,15 @@ Each person's data is stored under nested `<tr></tr>` and `<td></td>` tags.
 
 For simplicity and consistency in layout, always order multiple careers in descending alphabetical order using "&" as the last delimiter.
 
+# Generate Static Site 
+
+This is usually implemented if the site is hosted in GoDaddy, S3, Hostinger
+
+```bash
+hugo -D 
+# Will generate into public https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages
+```
+
 ## To Do
 
 - Monitor `Proyectos` page after multiple posts.
