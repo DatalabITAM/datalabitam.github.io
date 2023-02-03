@@ -12,7 +12,11 @@ hugo server
 
 For testing, you can use the `hugo server` command.
 
-> Before pushing to deploy, remember to build the `public/` files with the `hugo` command.
+> Before pushing to deploy, remember to build the `docs/` files with the following `hugo` command.
+
+```shell
+hugo -d docs/
+```
 
 This site requires the extended version of hugo since it relies on its built-in SASS processor. As of Jan 11, 2021, `hugo-extended` is installed by default when running `brew install hugo` on MacOS. However, for Windows or Linux users, you must [ensure](https://gohugo.io/getting-started/installing/) you've installed the **extended version**.
 
