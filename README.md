@@ -2,8 +2,8 @@
 
 ## Branches
 
--   `dev`: development branch ([datalabitam.github.io](https://datalabitam.github.io))
--   `master`: validation and production branch ([datalabitam.org](https://www.datalabitam.org))
+-   `dev`: development branch
+-   `master`: validation and production branch
 
 ## Usage
 
