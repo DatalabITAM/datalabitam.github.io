@@ -22,19 +22,18 @@ We recommend using the following naming convention for new branches:
 
 All needed commands are included in the `Makefile`. To use it, just clone the repo, and start [docker](https://www.docker.com).
 
-| Command  | Description                                             |
-| -------- | ------------------------------------------------------- |
-| `build`  | Builds the site in the `docs` directory.                |
-| `clean`  | Removes the `docs` directory.                           |
-| `help`   | Displays a list of all the available commands.          |
-| `image`  | Builds the Docker image.                                |
-| `serve`  | Serves the site on `0.0.0.0:1313`.                      |
-| `shell`  | Enters the container's bash shell.                      |
-| `update` | Cleans the site, builds the image, and builds the site. |
+| Command | Description                                    |
+| ------- | ---------------------------------------------- |
+| `build` | Builds the site in the `docs` directory.       |
+| `clean` | Removes untagged Docker images.                |
+| `help`  | Displays a list of all the available commands. |
+| `image` | Builds the Docker image.                       |
+| `serve` | Serves the site on `0.0.0.0:1313`.             |
+| `shell` | Enters the container's bash shell.             |
 
-For local development, you can use the `make serve` command. Before pushing to deploy, remember to build the `docs/` files with the `make update` command.
+For local development, you can use the `make serve` command. Before pushing to deploy, remember to build the `docs/` files with the `make build` command.
 
-> Remember that if you have not previously built the image, you must run the `make image` command.
+> Remember that if you have not previously built the image, you must run the `make image` command. In case you have built the image more than once, you can remove the untagged images with the `make clean` command.
 
 ### No Docker
 
