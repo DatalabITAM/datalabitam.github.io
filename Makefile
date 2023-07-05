@@ -23,7 +23,7 @@ clean:
 	rm -rf ./docs
 
 image:
-	docker build --no-cache -t $(IMAGE) .
+	docker build -t $(IMAGE) .
 
 serve:
 	$(RUN) server
