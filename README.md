@@ -2,10 +2,41 @@
 
 ## Branches
 
+-   `main`: production branch
 -   `dev`: development branch
--   `master`: validation and production branch
+
+## Rules
+
+Pushes to `main` and `dev` branches are disabled. Therefore, all changes must be made through pull requests. Also, remember to always pull from `dev` before creating a new branch.
+
+We recommend using the following naming convention for new branches:
+
+-   `docs/${docs-name}`: for documentation changes
+-   `feature/${feature-name}`: for new features
+-   `fix/${fix-name}`: for bug fixes
+-   `hotfix/${hotfix-name}`: for urgent bug fixes
 
 ## Usage
+
+### Docker
+
+All needed commands are included in the `Makefile`. To use it, just clone the repo, and start [docker](https://www.docker.com).
+
+| Command  | Description                                             |
+| -------- | ------------------------------------------------------- |
+| `build`  | Builds the site in the `docs` directory.                |
+| `clean`  | Removes the `docs` directory.                           |
+| `help`   | Displays a list of all the available commands.          |
+| `image`  | Builds the Docker image.                                |
+| `serve`  | Serves the site on `0.0.0.0:1313`.                      |
+| `shell`  | Enters the container's bash shell.                      |
+| `update` | Cleans the site, builds the image, and builds the site. |
+
+For local development, you can use the `make serve` command. Before pushing to deploy, remember to build the `docs/` files with the `make update` command.
+
+> Remember that if you have not previously built the image, you must run the `make image` command.
+
+### No Docker
 
 This is a full website, not a hugo theme. To use it, just clone the repo, and start [hugo](https://gohugo.io).
 
