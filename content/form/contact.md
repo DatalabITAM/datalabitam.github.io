@@ -1,5 +1,5 @@
 ---
-title: Escríbemos 💌
+title: Escríbenos 💌
 name: Contacto
 description: "¿Quieres trabajar con nosotrxs? Siempre puedes ayudar a mejorar nuestro contenido. Compártenos tus ideas en la cajita."
 date: 2019-02-25T13:38:41-06:00
