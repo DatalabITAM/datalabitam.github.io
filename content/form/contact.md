@@ -9,8 +9,8 @@ type: form
 layout: split-right # split-right or split-left
 submit_button_label: Enviar
 show_social_links: true # specify social accounts in site config
-show_poweredby_formspree: true
-formspree_form_id: datalabitam@gmail.com
+show_poweredby_formspree: false
+formspree_form_id: xyyqjwjv
 ---
 
 ** Contact page don't contain a body, just the front matter above.

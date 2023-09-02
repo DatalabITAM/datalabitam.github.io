@@ -3,11 +3,10 @@
 ## Branches
 
 -   `main`: production branch
--   `dev`: development branch
 
 ## Rules
 
-Pushes to `main` and `dev` branches are disabled. Therefore, all changes must be made through pull requests. Also, remember to always pull from `dev` before creating a new branch.
+Pushes to `main` branch are disabled. Therefore, all changes must be made through pull requests. Also, remember to always pull from `main` before creating a new branch.
 
 We recommend using the following naming convention for new branches:
 
@@ -281,4 +280,3 @@ hugo -D
 ## To Do
 
 -   Monitor `Proyectos` page after multiple posts.
--   Switch `Contacto` forms sheet from [Formspree](https://formspree.io) to local.
